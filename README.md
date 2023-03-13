@@ -57,6 +57,10 @@ Data was obtained by collating a random sample of text descriptions for +2200 an
 | Pollution                | 62            |
 | Water                    | 157           |
 
+*Figure 1. Class Frequency*
+
+![image](https://user-images.githubusercontent.com/108035242/224762239-b5229e1c-3165-4a90-b13f-4c7744d95693.png)
+  
 ## EXPERIMENTAL SETUP
 The following presents a high-level description of the experiment al set up follow to to apply pre-trained and machine-learning models to multi-class text classification of claims data: 
 1. Data pre-processing and cleaning, including removing stop words, stemming, and tokenization.
@@ -93,6 +97,11 @@ By comparing model performance in terms of accuracy and speed, we can see that L
 | NaiveBayes              | WordNetLemmatizer()    | tdif       | 500              | english    | 0.7822   | 1.34  |
 | NaiveBayes              | PorterStemmer()        | tdif       | 100              | english    | 0.7762   | 1.31  |
 
+*Figure 2. Training time*
+
+![image](https://user-images.githubusercontent.com/108035242/224762744-eecb9269-4ef3-4c5e-b65c-add40ae1f5fa.png)
+
+
 ### BERT
 We can see that the BERT approach produces better results when we compare it to Logistic Regression. Note that when we review the results on the test set, we observe some mistakes in the classifications performed by hand. For the second iteration of this project, we will fix these errors, and we expect an improvement in accuracy with this model.  
 
@@ -109,13 +118,16 @@ Is important to note that neither model produces better results when we compare 
 | ADA  | 0.8689   | 0.8687   |
 | DaVinci | 0.8822 | 0.8819   |
 
-*Figure 2. Accuracy for DaVinci Model*
+*Figure 3. Accuracy for DaVinci Model*  
 
 <img src="https://user-images.githubusercontent.com/108035242/224757100-3c77eb86-b9b8-40eb-89e3-97383a56b62c.png" alt="image" width="70%">
 
 
 ## CONCLUSIONS AND FUTURE WORK
 From this initial work, we can initially conclude that bigger not necessarily means better, as we can see in our initial results traditional machine-learning technique or medium-size language models can achieve acceptable levels of performance without incurring with the expense associated with using larger models like GPT-3.  
+
+
+*Figure 4. Results Comparison*  
 
 <img width="800" alt="image" src="https://user-images.githubusercontent.com/108035242/224755990-e7b6be3c-fa31-47b1-a059-fb7cbaf47bfd.png">
 
