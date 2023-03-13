@@ -1,5 +1,5 @@
 # CLAIMS DESCRIPTION CLASSIFICATION WITH MACHINE LEARNING AND LARGE LANGUAGE MODELS
-Alejandro Zarate M.Sc. MBA. B.Sc. – Head of Data Strategy, Specialties. Marsh.  
+Alejandro Zarate M.Sc. MBA.  
 March 2023, New York, New York. 
 
 ## EXECUTIVE SUMMARY
